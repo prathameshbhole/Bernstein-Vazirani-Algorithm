@@ -1,5 +1,5 @@
 from qiskit import *
-s = 101011 #random number, you can insert in any number here for the program to guess
+s = 101011 #random number
 qc = QuantumCircuit(6+1, 6)
 qc.h([0,1,2,3,4,5])
 qc.x(6)
