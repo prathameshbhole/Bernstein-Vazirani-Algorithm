@@ -1,6 +1,4 @@
 from qiskit import *
-%matplotlib inline
-from qiskit.tools.visualization import plot_histogram
 s = 101011 #random number, you can insert in any number here for the program to guess
 qc = QuantumCircuit(6+1, 6)
 qc.h([0,1,2,3,4,5])
